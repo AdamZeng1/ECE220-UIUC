@@ -1,0 +1,304 @@
+Compilation Results:
+********************
+
+Testing createMaze (20 pts)
+    Correct width and height: +2
+    Correct start location: +4
+    Correct end location: +4
+    Cells correctly set: +10
+createMaze score: 20
+
+Testing destroyMaze (10 pts)
+destroyMaze score: 10 points if no memory leaks/errors otherwise 0
+==6887== Memcheck, a memory error detector
+==6887== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==6887== Using Valgrind-3.12.0 and LibVEX; rerun with -h for copyright info
+==6887== Command: ./grader 1
+==6887== 
+==6887== 
+==6887== HEAP SUMMARY:
+==6887==     in use at exit: 0 bytes in 0 blocks
+==6887==   total heap usage: 54 allocs, 54 frees, 3,609 bytes allocated
+==6887== 
+==6887== All heap blocks were freed -- no leaks are possible
+==6887== 
+==6887== For counts of detected and suppressed errors, rerun with: -v
+==6887== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Testing printMaze (10 pts)
+PrintMazeScore: 0
+
+Testing solveMazeManhattanDFS (23 pts)
+Testing with maze from test1.txt (Simple maze)
+Correct return value: +2
+Solution to maze is valid: +5
+%%%%%
+%E**%
+%%%*%
+%S**%
+%%%%%
+solveMazeManhattan test1 score: 7
+
+Testing with maze from test2.txt (Complex maze)
+Correct return value: +2
+Solution to maze is valid: +5
+solveMazeManhattan test2 partial score: 7
+solveMazeManhattan test2 total score: 7 
+
+Testing with maze from test3.txt (Unsolvable maze)
+Correct return value: +4
+All empty cells visisted during search: +5
+solveMazeManhattan test3 score: 9
+
+
+Testing with maze from gradetest0 
+Correct return value
+Solution to maze is valid
+%SE%
+ %  
+ % %
+    
+solveMazeManhattan test gradetest0 score: 1
+
+Testing with maze from gradetest1 
+Correct return value
+Solution to maze is valid
+%E*%
+~%* 
+~%*%
+S** 
+solveMazeManhattan test gradetest1 score: 1
+
+Testing with maze from gradetest2 
+Correct return value
+Solution to maze is valid
+%  %
+ %  
+ % %
+ES  
+solveMazeManhattan test gradetest2 score: 1
+
+Testing with maze from gradetest3 
+Correct return value
+Solution to maze is valid
+%ES%
+ %  
+ % %
+    
+solveMazeManhattan test gradetest3 score: 1
+
+Testing with maze from gradetest4 
+Correct return value
+Solution to maze is valid
+%E*%
+S%* 
+*%*%
+*** 
+solveMazeManhattan test gradetest4 score: 1
+
+Testing with maze from gradetest5 
+Correct return value
+Solution to maze is valid
+%~S%
+ %*E
+ % %
+    
+solveMazeManhattan test gradetest5 score: 1
+
+Testing with maze from gradetest6 
+Correct return value
+Solution to maze is valid
+%E*%
+ %* 
+ %S%
+    
+solveMazeManhattan test gradetest6 score: 1
+
+Testing with maze from gradetest7 
+Correct return value
+Solution to maze is valid
+%S*%
+ %*~
+ %*%
+E** 
+solveMazeManhattan test gradetest7 score: 1
+
+Testing with maze from gradetest8 
+Correct return value
+Solution to maze is valid
+%~S%
+ %*~
+ %*%
+  E 
+solveMazeManhattan test gradetest8 score: 1
+
+Testing with maze from gradetest9 
+Correct return value
+Solution to maze is valid
+%S*%
+ %*~
+E%*%
+*** 
+solveMazeManhattan test gradetest9 score: 1
+
+Testing with maze from gradetest10 
+Correct return value
+Solution to maze is valid
+%E*%
+~%* 
+S%*%
+*** 
+solveMazeManhattan test gradetest10 score: 1
+
+Testing with maze from gradetest11 
+Correct return value
+Solution to maze is valid
+%E*%
+~%* 
+~%*%
+~S* 
+solveMazeManhattan test gradetest11 score: 1
+
+Testing with maze from gradetest12 
+Correct return value
+Solution to maze is valid
+%~S%
+ %*~
+ %*%
+E** 
+solveMazeManhattan test gradetest12 score: 1
+
+Testing with maze from gradetest13 
+Correct return value
+Solution to maze is valid
+%E*%
+ %S 
+ % %
+    
+solveMazeManhattan test gradetest13 score: 1
+
+Testing with maze from gradetest14 
+Correct return value
+Solution to maze is valid
+%~S%
+ %E 
+ % %
+    
+solveMazeManhattan test gradetest14 score: 1
+
+Testing with maze from gradetest15 
+Correct return value
+Solution to maze is valid
+% E%
+S%* 
+*%*%
+*** 
+solveMazeManhattan test gradetest15 score: 1
+
+Testing with maze from gradetest16 
+Correct return value
+Solution to maze is valid
+%~~%
+E%S~
+*%*%
+*** 
+solveMazeManhattan test gradetest16 score: 1
+
+Testing with maze from gradetest17 
+Correct return value
+Solution to maze is valid
+%~S%
+ %*~
+ %E%
+    
+solveMazeManhattan test gradetest17 score: 1
+
+Testing with maze from gradetest18 
+Correct return value
+Solution to maze is valid
+%E*%
+ %*S
+ % %
+    
+solveMazeManhattan test gradetest18 score: 1
+
+Testing with maze from gradetest19 
+Correct return value
+Solution to maze is valid
+%E*%
+~%* 
+~%*%
+~~*S
+solveMazeManhattan test gradetest19 score: 1
+
+Testing with maze from gradetest20 
+Correct return value
+Solution to maze is valid
+%  %
+~%  
+S% %
+E   
+solveMazeManhattan test gradetest20 score: 1
+
+Testing with maze from gradetest21 
+Correct return value
+Solution to maze is valid
+%~~%
+ %~~
+ %S%
+  E 
+solveMazeManhattan test gradetest21 score: 1
+
+Testing with maze from gradetest22 
+Correct return value
+Solution to maze is valid
+%  %
+~%  
+S%E%
+*** 
+solveMazeManhattan test gradetest22 score: 1
+
+Testing with maze from gradetest23 
+Correct return value
+Solution to maze is valid
+%S*%
+E%*~
+*%*%
+*** 
+solveMazeManhattan test gradetest23 score: 1
+
+Testing with maze from gradetest24 
+Correct return value
+Solution to maze is valid
+% E%
+~%* 
+S%*%
+*** 
+solveMazeManhattan test gradetest24 score: 1
+
+Testing with maze from gradetest25 
+Correct return value
+Solution to maze is valid
+% E%
+ %*S
+ % %
+    
+solveMazeManhattan test gradetest25 score: 1
+
+Testing with maze from gradetest26 
+Correct return value
+Solution to maze is valid
+%S*%
+ %*~
+ %*%
+ E* 
+solveMazeManhattan test gradetest26 score: 1
+
+Score for 27 tests: 27
+Grade:
+******
+Late submission: 0
+Functionality: 80 
+Comments and Style: 5 
+Intro paragraph: 5
+Total: 90
